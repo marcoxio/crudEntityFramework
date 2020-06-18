@@ -25,8 +25,23 @@ namespace CrudEntityFramework.Controllers
             return View(await _context.Usuario.ToListAsync());
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Create()
         {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Usuario usuario)
+        {
+            if(ModelState.IsValid)
+            {
+                _context.Usuario.Add(usuario);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
             return View();
         }
 
