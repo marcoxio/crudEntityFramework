@@ -69,3 +69,4 @@ C:\Users\manji\OneDrive\Documentos\CrudEntityFramework\CrudEntityFramework\bin\D
 C:\Users\manji\OneDrive\Documentos\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\manji\OneDrive\Documentos\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Users\manji\OneDrive\Documentos\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\manji\OneDrive\Documentos\CrudEntityFramework\CrudEntityFramework\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
