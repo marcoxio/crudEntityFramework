@@ -8,4 +8,4 @@ dotnet run -p .\CrudEntityFramework\
 
 
 ## Proximamente
-Claims-JWT-UserSecret-Swagger
+Claims-JWT-UserSecret-Swagger-fluentAPI
