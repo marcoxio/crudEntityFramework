@@ -42,5 +42,13 @@ Para ejecutar migraciones en Visual Studio Code se debe,primero instalar el paqu
 `update-database`
 
 
+
+## DataTables
+Agregamos el CDN en _layout ya que este se aplicara para todas las vistas
+* CSS
+href=`"https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"`
+* JS
+src=`"https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"`
+
 ## Proximamente
 Claims-JWT-UserSecret-Swagger-fluentAPI
